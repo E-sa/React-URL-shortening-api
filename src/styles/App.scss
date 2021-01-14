@@ -1,0 +1,76 @@
+
+$tomato_red:rgb(207, 59, 59);
+$button_background: #26D2D4;
+$button_hover: #77f1f3;
+
+@import "./big-perpule-div";
+@import "./results-box";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: silver;
+}
+
+::placeholder{
+  color: grey;
+  font-weight: bold;
+}
+
+.app{
+  
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 40%;
+  left: 50%;
+  margin-top: -100px; /* Negative half of height. */
+  margin-left: -40%; /* Negative half of width. */
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .app{
+
+    
+  .shorten-it {
+
+    div{
+    flex-direction: column;   
+
+      input{
+        height: 50px;
+        width: 90%;
+
+      } 
+
+
+
+      button{
+        height: 50px;
+        width: 90%;
+        margin: 0;
+        margin-top: 20px;
+        line-height: 0;
+
+      }
+
+    }
+
+}
+
+  }
+}
+

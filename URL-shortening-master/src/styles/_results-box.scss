@@ -1,0 +1,62 @@
+
+.results{
+    width: 80%;
+  
+    ul{
+      margin-top: 3px;
+      padding: 0;
+  
+      li{
+        background-color: white;
+        margin-top: 8px;
+        list-style: none;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 7px;
+        padding: 0 30px;
+  
+        p{
+          margin: 0;
+          color: #3A3053;
+          font-size: 17px;
+          font-weight: bold;
+        }
+  
+        
+  
+        button{
+          margin-left: 25px;
+          background-color: $button_background;
+          font-weight: bold;
+          color: white;
+          padding: 10px 30px;
+          border: none;
+          border-radius: 7px;
+  
+        }
+        button:hover{
+          background-color:  $button_hover;
+    }
+        button:focus {
+          background-color: #3A3053;
+  
+        }
+  
+        button:focus span{
+          display: none;
+        }
+  
+        button:focus:after {
+          content: "copied!";
+        }
+  
+  
+      }
+    }
+  
+  
+  }
+  
